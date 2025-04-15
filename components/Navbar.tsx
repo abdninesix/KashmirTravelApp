@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className='flexBetween max-container padding-container relative z-30 py-5'>
         <Link href="/" className='font-bold text-green-700 text-4xl'>
-            Kashmir
+            Kashmir Travels
         </Link>
 
         <ul className='hidden h-full gap-12 lg:flex'>
