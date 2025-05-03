@@ -11,7 +11,7 @@ interface CampProps {
 
 const CampSite = ({bgImage, title, subtitle, peopleJoined}: CampProps) => {
   return (
-    <div className={`h-full w-full min-w-[1100px] ${bgImage} bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}>
+    <div className={`h-full w-full min-w-[1100px] ${bgImage} bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl duration-200`}>
       <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
 
       <div className="rounded-full bg-green-700 p-4">
